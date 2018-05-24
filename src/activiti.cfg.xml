@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+				http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	
+    <bean id="processEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration">
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/mydb?useUnicode=true&amp;characterEncoding=utf-8"/>
+        <property name="jdbcDriver" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUsername" value="root"/>
+        <property name="jdbcPassword" value="123456"/>
+        <!-- 自动构建数据库表，设置value="true"，第一次启动建表；设置value="drop-create"，每次启动时建新表 -->
+        <property name="databaseSchemaUpdate" value="true" />
+    </bean>
+	
+</beans>

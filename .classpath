@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-bpmn-converter-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-bpmn-layout-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-bpmn-model-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-camel-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-cdi.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-common-rest-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-crystalball-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-cxf-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-diagram-rest-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-engine-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-explorer-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-image-generator-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-json-converter-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-ldap-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-modeler-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-mule-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-osgi-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-process-validation-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-rest-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-simple-workflow-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-spring-5.16.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-email-1.2.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-pool-1.5.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jcl-over-slf4j-1.7.6.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/joda-time-2.6.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/mybatis-3.2.5.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/mysql-connector-java-5.0.8.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/slf4j-api-1.7.6.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/slf4j-log4j12-1.7.6.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-aop-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-beans-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-context-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-core-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-expression-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-jdbc-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-orm-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-security-config-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-security-core-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-security-crypto-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-security-web-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-tx-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-web-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-webmvc-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
